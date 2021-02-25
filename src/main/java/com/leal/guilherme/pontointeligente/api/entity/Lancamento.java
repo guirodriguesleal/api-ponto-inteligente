@@ -1,4 +1,4 @@
-package com.leal.guilherme.pontointeligente.entity;
+package com.leal.guilherme.pontointeligente.api.entity;
 
 import java.io.Serializable;
 import java.util.Date;
