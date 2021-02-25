@@ -39,7 +39,7 @@ public class Lancamento implements Serializable {
 	}
 
 	@Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY )
 	public Long getId() {
 		return id;
 	}
@@ -49,7 +49,7 @@ public class Lancamento implements Serializable {
 	}
 
 	@Temporal(TemporalType.TIMESTAMP)
-	@Column(name = "data", nullable = false)
+	@Column(name = "datahora", nullable = false)
 	public Date getData() {
 		return data;
 	}
