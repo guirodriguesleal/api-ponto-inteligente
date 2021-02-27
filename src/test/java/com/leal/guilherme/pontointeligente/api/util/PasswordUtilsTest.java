@@ -1,4 +1,4 @@
-package com.leal.guilherme.pontointeligente.api.utils;
+package com.leal.guilherme.pontointeligente.api.util;
 
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;

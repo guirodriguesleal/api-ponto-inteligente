@@ -22,7 +22,7 @@ import com.leal.guilherme.pontointeligente.api.entity.Funcionario;
 import com.leal.guilherme.pontointeligente.api.entity.Lancamento;
 import com.leal.guilherme.pontointeligente.api.enums.PerfilEnum;
 import com.leal.guilherme.pontointeligente.api.enums.TipoEnum;
-import com.leal.guilherme.pontointeligente.api.utils.PasswordUtils;
+import com.leal.guilherme.pontointeligente.api.util.PasswordUtils;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

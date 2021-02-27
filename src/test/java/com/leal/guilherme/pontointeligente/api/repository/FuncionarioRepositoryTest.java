@@ -1,6 +1,5 @@
 package com.leal.guilherme.pontointeligente.api.repository;
 
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
@@ -18,9 +17,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import com.leal.guilherme.pontointeligente.api.entity.Empresa;
 import com.leal.guilherme.pontointeligente.api.entity.Funcionario;
 import com.leal.guilherme.pontointeligente.api.enums.PerfilEnum;
-import com.leal.guilherme.pontointeligente.api.utils.PasswordUtils;
-
-
+import com.leal.guilherme.pontointeligente.api.util.PasswordUtils;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
